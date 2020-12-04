@@ -18,7 +18,7 @@ body {
   src: url("/fonts/zoika.eot"); /* IE9 Compat Modes */
   src: url("/fonts/zoika.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("/fonts/zoika.svg") format("svg"), /* Legacy iOS */
-    url("/fonts/zoika.woff") format("woff"), /* Modern Browsers */
+    url("zoika.woff") format("woff"), /* Modern Browsers */
     url("/fonts/zoika.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
@@ -29,7 +29,7 @@ body {
   src: url("/fonts/Gotham-Bold700.eot"); /* IE9 Compat Modes */
   src: url("/fonts/Gotham-Bold700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("/fonts/Gotham-Bold700.svg") format("svg"), /* Legacy iOS */
-    url("/fonts/Gotham-Bold700.woff") format("woff"), /* Modern Browsers */
+    url("Gotham-Bold700.woff") format("woff"), /* Modern Browsers */
     url("/fonts/Gotham-Bold700.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
@@ -40,11 +40,8 @@ h3 {
     font-family: Zoikabold;
     font-size: 50px;
     color: red;
-    margin-left: 30%;
-    margin-right: 30%;
-    
-    top: 40px;
-    
+    top: 50px;
+    text-align: center;
 }
 
 textarea {
@@ -101,26 +98,22 @@ li {
 .ethP {
     padding-left: 130px;
 }
+
 .cont {
     position: relative;
-    top: 35%;
     height: 300px;
     width: 300px;
     border: 0.2px solid black;
     border-radius: 20px;
-    margin: auto;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -moz-box-shadow:0 0 10px grey; 
-    -webkit-box-shadow:0 0 10px grey; 
+    margin: 100px auto;
     box-shadow:0 0 10px grey; 
+    
 }
 
 .dd {
     position:absolute;
     display: inline-block;
-    left: 150px;
+    left: 180px;
 } 
 
 .ent {
