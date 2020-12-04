@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/cc.css" rel="stylesheet">
+        <script type="text/javascript" src="/cc.js"></script>
+        <title>CalCy</title>
+    </head>
+    <body>
+    
+        <h3>CalcCy</h3>
+
+        <!--rectangle container-->
+        <div class="cont">
+            <textarea cols="15" rows="2"style="padding-left: 20px">Enter USD/GH¢ rate here</textarea>
+            <textarea cols="12" rows="2" style="padding-left:90px">Enter ETH price here</textarea>
+            <div class="ty">
+        <!--Enter GH¢Rate-->
+                <ul>
+                    
+                    <li><input type="number" style="width:50px" id="ghRate" class="gBox" value="5.00" oninput="calcCy()"></li>
+                    <li style="color: red">GH¢</li>
+                </ul>
+        <!--Enter $ETH price-->
+                <ul class="ethP">
+                    
+                    <li style="margin-left:-10px"><span>$</span><input type="number" style="width:50px" id="ethRate" class="gBox" value="500.00" oninput="calcCy()"></li>
+                    <li style="color: red">ETH</li>
+                </ul>
+            </div>
+        <!--drop down button1-->    
+            <div class="dd" style="top: 140px">
+                <select id="select1" oninput="calcCy()">
+                <option value="eth">ETH</option>
+                <option value="ghc">GH¢</option>
+                <option value="usd">USD</option>
+                </select>
+            </div>
+        <!--drop down button2-->
+            <div class="dd" style="top: 220px">
+                <select id="select2" oninput="calcCy()">
+                <option value="ghc">GH¢</option>
+                <option value="eth">ETH</option>
+                <option value="usd">USD</option>
+                </select>
+            </div>
+        <!--entry field-->
+            <input id="entry" type="number" class="ent" oninput="calcCy()">
+        <!--display field-->
+            <input id="display" type="number" class="ens" value="0.00" readonly>
+            
+        
+        </div>
+    </body>
+</html>

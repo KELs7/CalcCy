@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+  font-family: "GoboldBold";
+  src: url("GoboldBold.eot"); /* IE9 Compat Modes */
+  src: url("GoboldBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("GoboldBold.svg") format("svg"), /* Legacy iOS */
+    url("GoboldBold.woff") format("woff"), /* Modern Browsers */
+    url("GoboldBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zoikabold";
+  src: url("zoika.eot"); /* IE9 Compat Modes */
+  src: url("zoika.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("zoika.svg") format("svg"), /* Legacy iOS */
+    url("zoika.woff") format("woff"), /* Modern Browsers */
+    url("zoika.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("Gotham-Bold700.eot"); /* IE9 Compat Modes */
+  src: url("Gotham-Bold700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("Gotham-Bold700.svg") format("svg"), /* Legacy iOS */
+    url("Gotham-Bold700.woff") format("woff"), /* Modern Browsers */
+    url("Gotham-Bold700.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3 {
+    position: relative;
+    font-family: Zoikabold;
+    font-size: 50px;
+    color: red;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    top: 40px;
+    
+}
+
+textarea {
+    outline: none;
+    border: none;
+    font-size: 11px;
+    color: grey;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+#ghRate {
+    font-family: GoboldBold;
+}
+
+#ethRate {
+    font-family: GoboldBold;
+}
+
+#entry {
+    font-family: GoboldBold;
+    font-size: 18px;
+}
+
+#display {
+    font-family: GoboldBold;
+    font-size: 18px;
+}
+
+.ty {
+    position: absolute;
+    top: 50px;
+}
+
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    font-family: Gotham-Bold;
+}
+
+
+.gBox {
+    border-radius: 5px;
+    border-top:none;
+    border-left: none;
+    border-right: none; 
+    font-size: 17px;
+}
+
+.ethP {
+    padding-left: 130px;
+}
+.cont {
+    position: relative;
+    top: 35%;
+    height: 300px;
+    width: 300px;
+    border: 0.2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -moz-box-shadow:0 0 10px grey; 
+    -webkit-box-shadow:0 0 10px grey; 
+    box-shadow:0 0 10px grey; 
+}
+
+.dd {
+    position:absolute;
+    display: inline-block;
+    left: 150px;
+} 
+
+.ent {
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    padding: 10px 10px;
+    width: 115px;
+    border-radius: 5px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+
+.ens {
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    padding: 10px 10px;
+    width: 115px;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+}
+
+select {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIKICAgIHg9IjBweCIKICAgIHk9IjBweCIKICAgIHdpZHRoPSIxMnB4IgogICAgaGVpZ2h0PSI2cHgiCiAgICB2aWV3Qm94PSIwIDAgNiAzIgogICAgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNiAzIgogICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKPgogICAgPCEtLSByZWQgdHJpYW5nbGUgLS0+CiAgICA8cG9seWdvbgogICAgICAgIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwIgogICAgICAgIHN0eWxlPSJmaWxsOnJlZDsiCiAgICAvPgo8L3N2Zz4=) no-repeat 95% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    appearance: none;
+    background-color: white;
+    
+    padding: 10px 10px;
+    display: block;
+    width: 60px;
+    
+    font-family: Gotham-Bold;
+    font-size: 1rem;
+  }
+  
