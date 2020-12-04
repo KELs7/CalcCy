@@ -4,33 +4,33 @@ body {
 
 @font-face {
   font-family: "GoboldBold";
-  src: url("GoboldBold.eot"); /* IE9 Compat Modes */
-  src: url("GoboldBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("GoboldBold.svg") format("svg"), /* Legacy iOS */
-    url("GoboldBold.woff") format("woff"), /* Modern Browsers */
-    url("GoboldBold.woff2") format("woff2"); /* Modern Browsers */
+  src: url("/fonts/GoboldBold.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/GoboldBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/GoboldBold.svg") format("svg"), /* Legacy iOS */
+    url("/fonts/GoboldBold.woff") format("woff"), /* Modern Browsers */
+    url("/fonts/GoboldBold.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Zoikabold";
-  src: url("zoika.eot"); /* IE9 Compat Modes */
-  src: url("zoika.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("zoika.svg") format("svg"), /* Legacy iOS */
-    url("zoika.woff") format("woff"), /* Modern Browsers */
-    url("zoika.woff2") format("woff2"); /* Modern Browsers */
+  src: url("/fonts/zoika.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/zoika.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/zoika.svg") format("svg"), /* Legacy iOS */
+    url("/fonts/zoika.woff") format("woff"), /* Modern Browsers */
+    url("/fonts/zoika.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Gotham-Bold";
-  src: url("Gotham-Bold700.eot"); /* IE9 Compat Modes */
-  src: url("Gotham-Bold700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("Gotham-Bold700.svg") format("svg"), /* Legacy iOS */
-    url("Gotham-Bold700.woff") format("woff"), /* Modern Browsers */
-    url("Gotham-Bold700.woff2") format("woff2"); /* Modern Browsers */
+  src: url("/fonts/Gotham-Bold700.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/Gotham-Bold700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/Gotham-Bold700.svg") format("svg"), /* Legacy iOS */
+    url("/fonts/Gotham-Bold700.woff") format("woff"), /* Modern Browsers */
+    url("/fonts/Gotham-Bold700.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
