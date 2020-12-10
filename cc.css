@@ -42,6 +42,7 @@ h3 {
     color: red;
     top: 50px;
     text-align: center;
+    opacity: 0.6;
 }
 
 textarea {
@@ -55,10 +56,14 @@ textarea {
 
 #ghRate {
     font-family: GoboldBold;
+    color: red;
+    opacity: 0.6;
 }
 
 #ethRate {
     font-family: GoboldBold;
+    color: red;
+    opacity: 0.7;
 }
 
 #entry {
@@ -139,13 +144,14 @@ li {
 }
 
 select {
-    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIKICAgIHg9IjBweCIKICAgIHk9IjBweCIKICAgIHdpZHRoPSIxMnB4IgogICAgaGVpZ2h0PSI2cHgiCiAgICB2aWV3Qm94PSIwIDAgNiAzIgogICAgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNiAzIgogICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKPgogICAgPCEtLSByZWQgdHJpYW5nbGUgLS0+CiAgICA8cG9seWdvbgogICAgICAgIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwIgogICAgICAgIHN0eWxlPSJmaWxsOnJlZDsiCiAgICAvPgo8L3N2Zz4=) no-repeat 95% 50%;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIKICAgIHg9IjBweCIKICAgIHk9IjBweCIKICAgIHdpZHRoPSIxMnB4IgogICAgaGVpZ2h0PSI2cHgiCiAgICB2aWV3Qm94PSIwIDAgNiAzIgogICAgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNiAzIgogICAgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIKPgogICAgPCEtLSByZWQgdHJpYW5nbGUgLS0+CiAgICA8cG9seWdvbgogICAgICAgIHBvaW50cz0iNS45OTIsMCAyLjk5MiwzIC0wLjAwOCwwIgogICAgICAgIHN0eWxlPSJmaWxsOiByZWQ7IGZpbGwtb3BhY2l0eTogMC42OyIKICAgIC8+Cjwvc3ZnPg==) no-repeat 95% 50%;
     -moz-appearance: none;
     -webkit-appearance: none;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     appearance: none;
     background-color: white;
+    /*opacity: 0.6;*/
     
     padding: 10px 10px;
     display: block;
