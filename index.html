@@ -18,36 +18,36 @@
         <!--Enter GH¢Rate-->
                 <ul>
                     
-                    <li><input type="number" style="width:50px" id="ghRate" class="gBox" value="5.00" oninput="calcCy()"></li>
-                    <li style="color: red">GH¢</li>
+                    <li><input type="text" inputmode="decimal"  style="width:50px" id="ghRate" class="gBox" value="5.00" oninput="calcCy2(this)"></li>
+                    <li>GH¢</li>
                 </ul>
         <!--Enter $ETH price-->
                 <ul class="ethP">
                     
-                    <li style="margin-left:-10px"><span>$</span><input type="number" style="width:50px" id="ethRate" class="gBox" value="500.00" oninput="calcCy()"></li>
-                    <li style="color: red">ETH</li>
+                    <li style="margin-left:-10px"><span>$</span><input type="text" inputmode="decimal"  style="width:50px" id="ethRate" class="gBox" value="500.00" oninput="calcCy2(this)"></li>
+                    <li>ETH</li>
                 </ul>
             </div>
-        <!--drop down button1-->    
+        <!--drop down menu1-->    
             <div class="dd" style="top: 140px">
-                <select id="select1" oninput="calcCy()">
-                <option value="eth">ETH</option>
-                <option value="ghc">GH¢</option>
-                <option value="usd">USD</option>
+                <select id="select1" oninput="calc_()">
+                <option id="eth1" value="eth" onclick="ddm()">ETH</option>
+                <option id="ghc1"  value="ghc" onclick="ddm()">GH¢</option>
+                <option id="usd1" value="usd" onclick="ddm()">USD</option>
                 </select>
             </div>
-        <!--drop down button2-->
+        <!--drop down menu2-->
             <div class="dd" style="top: 220px">
-                <select id="select2" oninput="calcCy()">
-                <option value="ghc">GH¢</option>
-                <option value="eth">ETH</option>
-                <option value="usd">USD</option>
+                <select id="select2" oninput="calc_()">
+                <option id="ghc2" value="ghc" onclick="ddm()">GH¢</option>
+                <option id="eth2" value="eth" onclick="ddm()">ETH</option>
+                <option id="usd2" value="usd" onclick="ddm()">USD</option>
                 </select>
             </div>
         <!--entry field-->
-            <input id="entry" type="number" class="ent" oninput="calcCy()">
+            <input id="entry" type="text" inputmode="decimal" class="ent" oninput="calcCy1(this)">
         <!--display field-->
-            <input id="display" type="number" class="ens" value="0.00" readonly>
+            <input type="number" id="display" class="ens" value="0.00" readonly>
             
         
         </div>
