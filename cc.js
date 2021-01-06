@@ -11,6 +11,7 @@ function calcCy2(e) {
 function calc_() {   
     var g = document.getElementById("ghRate").value;
     var e = document.getElementById("ethRate").value; 
+    var n = document.getElementById("ngRate").value;
     var u = document.getElementById("entry").value;
     var cc =document.getElementById("display");
     var select1 = document.getElementById("select1");
@@ -34,15 +35,35 @@ function calc_() {
     } else if (select1.value =="usd" && select2.value=="ghc") {
         var result6 = u * g;
         cc.value = result6.toFixed(2);
+    } else if (select1.value =="ngn" && select2.value=="ghc") {
+        var result7 = u / n;
+        cc.value = result7.toFixed(2);
+    } else if (select1.value =="ghc" && select2.value=="ngn") {
+        var result8 = u * n;
+        cc.value = result8.toFixed(2);
+    } else if (select1.value =="ngn" && select2.value=="eth") {
+        var result9 = (u / n) / e;
+        cc.value = result9.toFixed(2);
+    } else if (select1.value =="eth" && select2.value=="ngn") {
+        var result10 = u * e * n;
+        cc.value = result10.toFixed(2);
+    } else if (select1.value =="ngn" && select2.value=="usd") {
+        var result11 = u / n;
+        cc.value = result11.toFixed(2);
+    } else if (select1.value =="usd" && select2.value=="ngn") {
+            var result12 = u * n;
+            cc.value = result12.toFixed(2);
     } else {
-        if (select1.value =="eth" && select2.value=="eth" || select1.value =="ghc" && select2.value=="ghc" || select1.value =="usd" && select2.value=="usd") {
+        if (select1.value =="eth" && select2.value=="eth" || select1.value =="ghc" && select2.value=="ghc" || select1.value =="ngn" && select2.value=="ngn" || select1.value =="usd" && select2.value=="usd") {
             select1.value = "eth";
             select2.value = "ghc";
             var result7 = u * e * g;
             cc.value = result7.toFixed(2);
         }
-    
     }
+    
+    
+    
     
 }
 
